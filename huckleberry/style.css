@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+header {
+  padding-top: 128px;
+  padding-bottom: 64px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: solid 8px hsl(0deg, 0%, 40%);
+}
+
+main {
+  padding-top: 128px;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.intro-chunk p strong {
+  color: hsl(160deg, 100%, 30%)
+}
+
+.max-width-wrapper {
+   margin: 0 auto;
+   max-width: 700px;
+   padding: 0 32px;
+   background-color: hsl(0deg, 0%, 100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .max-width-wrapper {
+    max-width: 100%;
+  }
+}
+
+main .max-width-wrapper {
+  border-bottom: solid 8px hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk p {
+  font-size: 1.5rem;
+}
+
+.intro-chunk {
+  max-width: 400px;
+}
+
+.indented-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 32px;
+  margin-left: -32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: solid 5px hsl(45deg, 100%, 40%);
+  max-width: 500px;
+}
+
+@media screen and (min-width: 600px) {
+  .indented-heading {
+    margin-left: -48px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+main {
+  padding-top: 64px;
+}
+
+.card {
+  padding-top: 8px;
+}
+
+.card p {
+  font-size: 1.25rem;
+}
