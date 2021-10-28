@@ -1,0 +1,7 @@
+.character {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  min-height: 500px;
+  max-height: 85%;
+}
